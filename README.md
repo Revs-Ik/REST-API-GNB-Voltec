@@ -24,7 +24,7 @@ Actualmente 21 Jul 2024, se encuentra desplegada en [https://restapignb202407200
 
 - **Ver todas las transacciones:**
 
-```http
+```
 GET: https://restapignb20240720003426.azurewebsites.net/api/transactions/all
 ```
 
@@ -32,7 +32,7 @@ GET: https://restapignb20240720003426.azurewebsites.net/api/transactions/all
 
 Requiere el header `api-key` con valor "privileged API key". Además, las transacciones que se quieran añadir se pasan en el Body en forma de lista de diccionarios.
 
-```http
+```
 POST: https://restapignb20240720003426.azurewebsites.net/api/transactions/add
 ```
 
@@ -41,13 +41,13 @@ POST: https://restapignb20240720003426.azurewebsites.net/api/transactions/add
 Donde `t2006` representa el codigo SKU de buscado.
 (Retorna todas las transacciones en EUR y la suma total de estas, también en EUR).
 
-```http
+```
 GET: https://restapignb20240720003426.azurewebsites.net/api/transactions/search?sku=t2006
 ```
 
 - **Ver todas las rates:**
 
-```http
+```
 GET: https://restapignb20240720003426.azurewebsites.net/api/rates/all
 ```
 
@@ -55,7 +55,7 @@ GET: https://restapignb20240720003426.azurewebsites.net/api/rates/all
 
 Requiere el header `api-key` con valor "privileged API key". Además, las transacciones que se quieran añadir se pasan en el Body en forma de lista de diccionarios.
 
-```http
+```
 POST: https://restapignb20240720003426.azurewebsites.net/api/rates/add
 ```
 
