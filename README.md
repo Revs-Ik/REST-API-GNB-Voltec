@@ -31,7 +31,7 @@ GET: https://restapignb20240720003426.azurewebsites.net/api/transactions/all
 - **Añadir transacciones:**
 
 Requiere el header `api-key` con valor "privileged API key". Además, las transacciones que se quieran añadir se pasan en el Body en forma de lista de diccionarios.
-
+[Probar en Postman](https://a33333-4099.postman.co/workspace/a-Workspace~d69db524-4e30-437c-be24-5adc914accaa/request/31401362-d5911d3e-48b0-4be0-b180-6ac25029dae8?action=share&creator=31401362&ctx=documentation)
 ```
 POST: https://restapignb20240720003426.azurewebsites.net/api/transactions/add
 ```
